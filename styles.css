@@ -7,7 +7,13 @@
 
 
 
+
+
+
+
+
 /* CSS RESET */
+
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -58,13 +64,74 @@ table {
 	border-spacing: 0;
 }
 
+
+
+
+
+
+
+
 /* ROOT VARIABLES */
+
+:root {
+    --teal: #4CA7C0;
+    --purple: #484FB7;
+    --lavender: #6B8FE7;
+    --yellow: #E9BB57;
+    --pink: #D9526F;
+    --dark-gray: #1E1E1E;
+    --white: #FFFFFF;
+
+
+    --header-font: "Kavoon", serif;
+    --other-font: "Inter", sans-serif;
+
+}
+
+
+
+
+
 
 
 
 
 
 /* GLOBAL STYLES (mobile first/small) */ 
+
+
+body{
+  background-color: var(--lavender);
+  font-family: var(--other-font);
+  color: var(--dark-gray);
+  line-height: 1.4;
+}
+
+header, nav, main, footer{
+  width: 100%;
+  max-width: 450px;
+  margin: 0 auto;
+}
+
+
+header{
+  background-color: var(--purple);
+  color: var(--white);
+  text-align: center;
+  padding: 20px 16px;
+}
+
+
+h1{
+  font-family: var(--header-font);
+  font-size: 3em;
+  margin-bottom: 6px;
+}
+
+
+header p{
+  font-family: var(--other-font);
+}
 
 
 
