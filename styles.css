@@ -161,7 +161,7 @@ nav{
 }
 
 nav h2{
-    font-family: var(--heading-font);
+    font-family: var(--other-font);
     font-size: 1.5em;
     font-style: italic;
     font-weight: bold;
@@ -197,6 +197,52 @@ nav a{
 
 main{
     background-color: var(--purple);
+    padding: 15px;
   
 }
+
+
+
+main h2{
+    font-family: var(--header-font);
+    font-size: 2em;
+    color: var(--white);
+}
+
+main h3{
+    font-family: var(--other-font);
+    font-size: 1.5em;
+    color: var(--yellow);
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+main h4{
+    font-family: var(--other-font);
+    font-size: 1.15em;
+    color: var(--purple);
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#services > section > section{
+  background-color: var(--white);
+  border-radius: 15px;
+  padding: 30px;
+  margin-bottom: 30px;
+  margin: 20px 10px;
+}
+
+#services img{
+  width: 110px;
+  margin: 0 auto 10px;
+}
+
+#services p{
+  font-size: 0.95rem;
+  color: var(--dark-gray);
+  line-height: 1.5;
+}
+
+
 
