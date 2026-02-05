@@ -71,6 +71,20 @@ table {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* ROOT VARIABLES */
 
 :root {
@@ -101,38 +115,88 @@ table {
 
 
 body{
-  background-color: var(--lavender);
-  font-family: var(--other-font);
-  color: var(--dark-gray);
-  line-height: 1.4;
+    background-color: var(--lavender);
+    font-family: var(--other-font);
+    color: var(--dark-gray);
+    line-height: 1.4;
 }
 
 header, nav, main, footer{
-  width: 100%;
-  max-width: 450px;
-  margin: 0 auto;
+    width: 100%;
+    max-width: 450px;
+    margin: 0 auto;
 }
 
 
 header{
-  background-color: var(--purple);
-  color: var(--white);
-  text-align: center;
-  padding: 20px 16px;
+    background-color: var(--purple);
+    color: var(--white);
+    text-align: center;
+    padding: 30px 15px;
 }
 
 
 h1{
-  font-family: var(--header-font);
-  font-size: 3em;
-  margin-bottom: 6px;
+    font-family: var(--header-font);
+    font-size: 3em;
 }
 
 
 header p{
-  font-family: var(--other-font);
+    font-family: var(--other-font);
+    font-style: italic;
+}
+
+header p{
+    margin-top: 12px;
 }
 
 
 
+
+nav{
+    background-color: var(--yellow);
+    padding: 15px;
+    text-align: center;
+}
+
+nav h2{
+    font-family: var(--heading-font);
+    font-size: 1.5em;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    color: var(--dark-gray);
+}
+
+nav ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+}
+
+nav a{
+    display: block;
+    background-color: var(--white);
+    color: var(--purple);
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 12px;
+}
+
+
+
+
+
+
+
+
+
+main{
+    background-color: var(--purple);
+  
+}
 
