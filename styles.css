@@ -226,23 +226,100 @@ main h4{
 }
 
 #services > section > section{
-  background-color: var(--white);
-  border-radius: 15px;
-  padding: 30px;
-  margin-bottom: 30px;
-  margin: 20px 10px;
+    background-color: var(--white);
+    border-radius: 15px;
+    padding: 30px;
+    margin-bottom: 30px;
+    margin: 20px 10px;
 }
 
 #services img{
-  width: 110px;
-  margin: 0 auto 10px;
+    width: 110px;
+    margin: 0 auto 10px;
 }
 
 #services p{
-  font-size: 0.95rem;
-  color: var(--dark-gray);
-  line-height: 1.5;
+    font-size: 1rem;
+    color: var(--dark-gray);
+    line-height: 1.5;
 }
 
 
 
+
+
+
+
+
+
+
+#why{
+    background-color: var(--pink);
+    padding: 15px;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+#why h2{
+    margin-bottom: 15px;
+}
+
+
+#why ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    font-weight: bold;
+    font-size: 1.15em;
+}
+
+#why li{
+    border-radius: 15px;
+    padding: 35px;
+    text-align: center;
+    font-weight: bold;
+    color: var(--dark-gray);
+}
+
+#why li.teal {
+    background-color: var(--teal);
+}
+
+#why li.lavender {
+    background-color: var(--lavender);
+}
+
+#why li.yellow {
+    background-color: var(--yellow);
+}
+
+#why li.white {
+    background-color: var(--white);
+}
+
+
+#prices {
+    padding: 15px;
+    margin: 10px -15px;
+    font-family: var(--other-font);
+}
+
+#prices table {
+    width: 250px;
+}
+
+
+#prices th{
+    background-color: var(--yellow);
+    border: 2px solid var(--yellow);
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 10px;
+    text-align: left;
+}
+
+#prices td{
+    padding: 10px;
+    border: 2px solid var(--yellow);
+    background-color: var(--white);
+}
