@@ -118,7 +118,7 @@ body{
     background-color: var(--lavender);
     font-family: var(--other-font);
     color: var(--dark-gray);
-    line-height: 1.4;
+    line-height: 1.5;
 }
 
 header, nav, main, footer{
@@ -148,7 +148,7 @@ header p{
 }
 
 header p{
-    margin-top: 12px;
+    margin-top: 5px;
 }
 
 
@@ -334,4 +334,64 @@ main h4{
     padding: 10px;
     border: 2px solid var(--yellow);
     background-color: var(--white);
+}
+
+
+
+
+
+
+
+
+#steps{
+    background-color: var(--pink);
+    margin: 0 -15px;
+    padding: 15px;
+}
+
+#steps p{
+    color: var(--white);
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 7px;
+}
+
+#steps a{
+    display: block;
+    background-color: var(--white);
+    color: var(--dark-gray);
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    width: 350px;
+    padding: 15px;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 1);
+    border-radius: 15px;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+footer{
+    background-color: var(--purple);
+    color: var(--white);
+    text-align: center;
+    padding: 30px 15px;
+    font-size: 0.7em;
+}
+
+
+footer small{
+    margin-bottom: 10px;
+    margin-right: 55px;
+}
+
+footer a{
+    color: var(--white);
+    text-decoration: underline;
 }
